@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Josh MacSween', // e.g: 'Name | Developer'
+  title: 'Josh MacSween | Sofware Developer', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: 'This is my portfolio.', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Josh MacSween',
-  subtitle: 'JavaScript Developer',
+  subtitle: 'Software Developer',
   cta: '',
 };
 
@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'joshProfile.jpeg',
   paragraphOne: 'I am a self-taught software developer local to Edmonton, Alberta, Canada.',
   paragraphTwo:
-    'I enjoy working in the MERN stack, though I also have skills in Ruby on Rails and Python.',
+    'I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails.',
   paragraphThree:
-    'Programming is my greatest passion - I am always looking to learn new techniques and improve my skills.',
+    'Programming is a great passion of mine, I love learning new techniques and improving my skills. Some of my other passions involve: playing live music, craft beer, good coffee and good books.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -35,7 +35,7 @@ export const projectsData = [
     info:
       'In FilmBuffs, the client arrives at the site, searches for a film, and is presented data such as the director, runtime, actors, etc. Coming soon is user signup and a feature which allows users to add films to their watch list.',
     info2: 'In this project I used React, Bootstrap, Axios and FireBase',
-    url: '',
+    // url: '',
     repo: 'https://github.com/JoshMacSween/FilmBuffs', // if no repo, the button will not show up
   },
   // {
@@ -60,8 +60,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
+  cta:
+    "If you'd like to know more and speak with me futher, don't be a stranger and click the button below",
+  btn: 'Contact Me',
   email: 'joshmacsween@gmail.com',
 };
 
@@ -93,5 +94,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
