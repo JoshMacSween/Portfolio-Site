@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Josh MacSween',
-  subtitle: 'Software Developer',
+  subtitle: 'Welcome to my portfolio.',
   cta: '',
 };
 
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails.',
   paragraphThree:
-    'Programming is a great passion of mine, I love learning new techniques and improving my skills. Some of my other passions involve: playing live music, craft beer, good coffee and good books.',
+    'Programming is a great passion of mine, I love learning new techniques and improving my skills. Some of my other passions involve playing live music, studying film, craft beer, good coffee and good books.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -37,6 +37,17 @@ export const projectsData = [
     info2: 'In this project I used React, Bootstrap, Axios and FireBase',
     // url: '',
     repo: 'https://github.com/JoshMacSween/FilmBuffs', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'drumCare.png',
+    title: 'DrumCare',
+    info:
+      'In DrumCare, I have built a front end which displays cards containing various services that the business offers. There is an about page which explains the background of the team, and a form in which to contact the business which also collects important data from the customer, such as drum kit size, desired package and contact information.',
+    info2:
+      'In this project I used React, Bootswatch, and previously used nodemailer before deploying to netlify.',
+    url: 'drumcare.ca',
+    repo: 'https://github.com/JoshMacSween/DrumCare', // if no repo, the button will not show up
   },
   // {
   //   id: nanoid(),
