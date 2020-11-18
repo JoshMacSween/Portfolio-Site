@@ -46,7 +46,7 @@ export const projectsData = [
       'In DrumCare, I have built a front end which displays cards containing various services that the business offers. There is an about page which explains the background of the team, and a form in which to contact the business which also collects important data from the customer, such as drum kit size, desired package and contact information.',
     info2:
       'In this project I used React, Bootswatch, and previously used nodemailer before deploying to netlify.',
-    url: 'drumcare.ca',
+    url: 'https://www.drumcare.ca/',
     repo: 'https://github.com/JoshMacSween/DrumCare', // if no repo, the button will not show up
   },
   // {
