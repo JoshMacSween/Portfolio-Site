@@ -35,7 +35,7 @@ export const projectsData = [
     info:
       'In FilmBuffs, the client arrives at the site, searches for a film, and is presented data such as the director, runtime, actors, etc. Coming soon is user signup and a feature which allows users to add films to their watch list.',
     info2: 'In this project I used React, Bootstrap, Axios and FireBase',
-    url: 'https://www.google.ca/',
+    url: 'https://filmbuffs.netlify.app/',
     repo: 'https://github.com/JoshMacSween/FilmBuffs', // if no repo, the button will not show up
   },
   {
