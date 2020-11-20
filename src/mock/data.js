@@ -20,9 +20,9 @@ export const aboutData = {
   img: 'joshProfile.jpeg',
   paragraphOne: 'I am a self-taught software developer local to Edmonton, Alberta, Canada.',
   paragraphTwo:
-    'I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails.',
+    "I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails, and I'm only too happy to start learning something new. I started learning software development three years ago, and it quickly became a passion became and lead to an obsession.",
   paragraphThree:
-    'Programming is a great passion of mine, I love learning new techniques and improving my skills. Some of my other passions involve playing live music, studying film, craft beer, good coffee and good books.',
+    'Programming is a great passion of mine, but I have many other interests too. Some of my other passions involve playing live music, studying film, powerlifting, craft beer, good coffee and good books.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -34,7 +34,7 @@ export const projectsData = [
     title: 'FilmBuffs',
     info:
       'In FilmBuffs, the client arrives at the site, searches for a film, and is presented data such as the director, runtime, actors, etc. Coming soon is user signup and a feature which allows users to add films to their watch list.',
-    info2: 'In this project I used React, Bootstrap, Axios and FireBase',
+    info2: 'In this project I used React, Bootstrap, and Axios',
     url: 'https://filmbuffs.netlify.app/',
     repo: 'https://github.com/JoshMacSween/FilmBuffs', // if no repo, the button will not show up
   },
@@ -72,7 +72,7 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta:
-    "If you'd like to know more and speak with me futher, don't be a stranger and click the button below",
+    "If you'd like to know more and speak with me further, don't be a stranger and click the button below",
   btn: 'Contact Me',
   email: 'joshmacsween@gmail.com',
 };
