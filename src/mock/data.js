@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'joshProfile.jpeg',
   paragraphOne: 'I am a self-taught software developer local to Edmonton, Alberta, Canada.',
   paragraphTwo:
-    "I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails, and I'm only too happy to start learning something new. I started learning software development three years ago, and it quickly became a passion became and lead to an obsession.",
+    "I enjoy working in the MERN stack, though I also have experience with Vue, Python, and Ruby on Rails, and I'm only too happy to start learning something new. I started learning software development three years ago, and it quickly became an obsession.",
   paragraphThree:
     'Programming is a great passion of mine, but I have many other interests too. Some of my other passions involve playing live music, studying film, powerlifting, craft beer, good coffee and good books.',
   resume: '', // if no resume, the button will not show up
